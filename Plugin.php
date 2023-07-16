@@ -194,6 +194,7 @@ EOF;
             'sketch' => "<img src='{$dir}/sketch/normal.cur'><img src='{$dir}/sketch/link.cur'>",
             'black' => "<img src='{$dir}/black/normal.cur'><img src='{$dir}/black/link.cur'>",
             'star' => "<img src='{$dir}/star/normal.cur'><img src='{$dir}/star/link.cur'>",
+            'win11cursor' => "<img src='{$dir}/win11cursor/normal.cur'><img src='{$dir}/win11cursor/link.cur'>",
         ];
         $bubbleType = new Typecho_Widget_Helper_Form_Element_Radio('mouseType', $options, 'dew', _t('鼠标样式'));
         $form->addInput($bubbleType);
